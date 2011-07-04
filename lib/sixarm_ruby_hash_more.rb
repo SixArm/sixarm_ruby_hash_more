@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm Ruby Gem: HashMore
@@ -18,7 +20,7 @@ Examples:
   hash["red"]["apple"] = true
   hash["red"]["dress"] = true
   hash["red"]["truck"] = true
-  
+
   hash["red"] => {"apple"=>true, "dress"=>true, "truck"=>true}
 
 = Counting and Totals
@@ -28,22 +30,22 @@ This class is also useful for building aggregate data about a set of similar obj
 Counting example:
   h = HashMore.new
   employees = Employee.all
-  for e in employees 
+  for e in employees
     h[e.division][e.department]+=1
   end
-  
+
   h['sales']['east coast] => 28
   h['sales']['west coast] => 23
 
 Totals example:
   h = HashMore.new
   invoices = Invoices.all
-  
+
   for i in invoices
     h[i.customer.name][i.sale_date.year]['tax'] += i.tax_amount
     h[i.customer.name][i.sale_date.year]['sale'] += i.sale_amount
   end
-  
+
   h['Acme Corp']['2008']['tax'] => 12039.12
   h['Acme Corp']['2009']['sale'] => 102649
 
@@ -59,5 +61,5 @@ class HashMore < Hash
   def +(x)
     x
   end
-  
+
 end
