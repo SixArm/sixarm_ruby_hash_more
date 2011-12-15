@@ -1,7 +1,6 @@
+SixArm.com » Ruby » HashMore class for dynamic hashes
 
-= SixArm Ruby Gem: HashMore
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
+Author:: Joel Parker Henderson, joel@joelparkerhenderson.com
 Copyright:: Copyright (c) 2007-2010 Joel Parker Henderson
 License:: CreativeCommons License, Non-commercial Share Alike
 License:: LGPL, GNU Lesser General Public License
