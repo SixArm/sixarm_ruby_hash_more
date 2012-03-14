@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.require_path      = 'lib'
   s.has_rdoc          = true
-  s.files             = ['README.rdoc','LICENSE.txt','lib/sixarm_ruby_hash_more.rb']
+  s.files             = ['README.md','LICENSE.txt','lib/sixarm_ruby_hash_more.rb']
   s.test_files        = ['test/sixarm_ruby_hash_more_test.rb']
 
 end
