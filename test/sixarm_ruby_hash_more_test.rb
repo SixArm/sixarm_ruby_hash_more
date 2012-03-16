@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
+require 'test/unit'
 require 'simplecov'
 SimpleCov.start
-require 'test/unit'
 require 'sixarm_ruby_hash_more'
 
 class Testing < Test::Unit::TestCase
@@ -19,9 +20,9 @@ class Testing < Test::Unit::TestCase
  def test_add
   h = HashMore.new
   h[:a][:b][:c] += 1
-  assert_equal(h[:a][:b][:c],1)  
+  assert_equal(h[:a][:b][:c],1)
   h[:a][:b][:c] += 1
-  assert_equal(h[:a][:b][:c],2)  
+  assert_equal(h[:a][:b][:c],2)
  end
- 
+
 end
