@@ -4,25 +4,38 @@ require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_hash_more'
 
-class Testing < Test::Unit::TestCase
+describe HashMore do
 
- def test_new
-  h = HashMore.new
-  assert_equal(h,{})
- end
+  before do
+    @h = HashMore.new
+  end
 
- def test_equal
-  h = HashMore.new
-  h[:a][:b][:c] = 'hello'
-  assert_equal(h[:a][:b][:c],'hello')
- end
+  describe ".new" do
 
- def test_add
-  h = HashMore.new
-  h[:a][:b][:c] += 1
-  assert_equal(h[:a][:b][:c],1)
-  h[:a][:b][:c] += 1
-  assert_equal(h[:a][:b][:c],2)
- end
+    it "is a blank hash" do
+      @h.must_equal Hash.new
+    end
+
+  end
+
+  describe "=" do
+
+    it "=" do
+      @h[:a][:b][:c] = 'hello'
+      @h[:a][:b][:c].must_equal 'hello'
+    end
+
+  end
+
+  describe "+" do
+
+    it "+=" do
+      @h[:a][:b][:c] += 3
+      @h[:a][:b][:c].must_equal 3
+      @h[:a][:b][:c] += 3
+      @h[:a][:b][:c].must_equal 6
+    end
+
+  end
 
 end

@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_hash_more"
-  s.summary           = "SixArm Ruby Gem: HashMore class to create a recursive hash"
-  s.version           = "1.2.8"
+  s.summary           = "SixArm.com » Ruby » HashMore class to create a recursive hash"
+  s.version           = "1.3.0"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.require_path      = 'lib'
   s.has_rdoc          = true
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
+  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"]
   test_files          = ["test/#{s.name}_test.rb"]
 
