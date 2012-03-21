@@ -14,7 +14,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_hash_more/doc>
 Want to help? We're happy to get pull requests.
 
 
-## Quickstart
+## Install quickstart
 
 Install:
 
@@ -22,14 +22,14 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_hash_more", "=1.3.0"
+    gem "sixarm_ruby_hash_more", "~>1.3.0"
 
 Require:
 
     require "sixarm_ruby_hash_more"
 
 
-## High Security (Optional)
+## Install with security (optional)
 
 To enable high security for all our gems:
 
@@ -39,7 +39,7 @@ To enable high security for all our gems:
 
 To install with high security:
 
-    gem install sixarm_ruby_ --test --trust-policy HighSecurity
+    gem install sixarm_ruby_hash_more --test --trust-policy HighSecurity
 
 
 ## Details
