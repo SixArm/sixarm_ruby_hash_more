@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> HashMore class for dynamic hashes
 
-* Docs: <http://sixarm.com/sixarm_ruby_hash_more/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_hash_more/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_hash_more>
 * Repo: <http://github.com/sixarm/sixarm_ruby_hash_more>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
