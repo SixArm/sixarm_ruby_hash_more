@@ -1,5 +1,8 @@
 # SixArm.com » Ruby » <br> HashMore class for dynamic hashes
 
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png)](https://travis-ci.org/SixArm/sixarm_ruby_hash_more_bravo)
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more)
+
 * Doc: <http://sixarm.com/sixarm_ruby_hash_more/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_hash_more>
 * Repo: <http://github.com/sixarm/sixarm_ruby_hash_more>
