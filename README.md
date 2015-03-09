@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> HashMore class for dynamic hashes
+# Ruby » <br> HashMore class for dynamic hashes
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png)](https://travis-ci.org/SixArm/sixarm_ruby_hash_more_bravo)
