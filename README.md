@@ -89,8 +89,3 @@ Totals example:
   
     h['Acme Corp']['2008']['tax'] => 12039.12
     h['Acme Corp']['2009']['sale'] => 102649
-
-
-## Changes
-
-* 2012-03-17 1.3.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.
