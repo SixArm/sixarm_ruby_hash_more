@@ -1,1 +1,73 @@
-{"Unit Tests":{"coverage":{"/home/sixarm/git/sixarm_ruby_hash_more/lib/sixarm_ruby_hash_more.rb":[null,null,null,null,null,null,1,null,1,0,null,null,1,0,null,null,null]},"timestamp":1332025512}}
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/joel/git/sixarm/sixarm_ruby_hash_more/lib/sixarm_ruby_hash_more.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/joel/git/sixarm/sixarm_ruby_hash_more/lib/sixarm_ruby_hash_more/hash_more.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/joel/git/sixarm/sixarm_ruby_hash_more/test/sixarm_ruby_hash_more_test/hash_more_test.rb": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1437286699
+  }
+}
