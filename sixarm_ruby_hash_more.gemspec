@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_hash_more"
   s.summary        = "SixArm.com → Ruby → HashMore"
   s.description    = "HashMore class to create a recursive hash"
-  s.version        = "1.3.2"
+  s.version        = "1.3.3"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
