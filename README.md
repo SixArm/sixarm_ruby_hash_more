@@ -1,6 +1,6 @@
 # SixArm.com → Ruby → <br> HashMore class for dynamic hashes
 
-<!--HEADER-OPEN-->
+<!--header-open-->
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_hash_more.svg)](http://badge.fury.io/rb/sixarm_ruby_hash_more)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png)](https://travis-ci.org/SixArm/sixarm_ruby_hash_more)
@@ -13,7 +13,7 @@
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
 * Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 
 ## Introduction
@@ -25,7 +25,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_hash_more/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -45,7 +45,7 @@ To require the gem in your code:
 
     require 'sixarm_ruby_hash_more'
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
 
 
 ## Details
