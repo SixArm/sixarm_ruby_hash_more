@@ -1,12 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.8.7.6
+    &mdash; Documentation by YARD 0.9.14
   
 </title>
 
@@ -15,9 +15,8 @@
   <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
 
 <script type="text/javascript" charset="utf-8">
-  hasFrames = window.top.frames.main ? true : false;
+  pathId = "README";
   relpath = '';
-  framesUrl = "frames.html#!file.README.html";
 </script>
 
 
@@ -28,126 +27,107 @@
 
   </head>
   <body>
-    <div id="header">
-      <div id="menu">
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
   
     <a href="_index.html">Index</a> &raquo; 
     <span class="title">File: README</span>
   
-
-  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
 </div>
 
-      <div id="search">
+        <div id="search">
   
     <a class="full_list_link" id="class_list_link"
         href="class_list.html">
-      Class List
-    </a>
-  
-    <a class="full_list_link" id="method_list_link"
-        href="method_list.html">
-      Method List
-    </a>
-  
-    <a class="full_list_link" id="file_list_link"
-        href="file_list.html">
-      File List
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
     </a>
   
 </div>
-      <div class="clear"></div>
-    </div>
+        <div class="clear"></div>
+      </div>
 
-    <iframe id="search_frame"></iframe>
+      <div id="content"><div id='filecontents'><h1>SixArm.com → Ruby → <br> HashMore class for dynamic hashes</h1>
 
-    <div id="content"><div id='filecontents'>
-<h1 id="label-Ruby+-C2-BB++HashMore+class+for+dynamic+hashes">Ruby » <br> HashMore class for dynamic hashes</h1>
-<!--HEADER-OPEN-->
-<p><a href="http://badge.fury.io/rb/sixarm_ruby_hash_more"><img
-src="https://badge.fury.io/rb/sixarm_ruby_hash_more.svg"></a> <a
-href="https://travis-ci.org/SixArm/sixarm_ruby_hash_more"><img
-src="https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png"></a> <a
-href="https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more"><img
-src="https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more.png"></a>
-<a
-href="https://coveralls.io/github/SixArm/sixarm_ruby_hash_more?branch=master"><img
-src="https://coveralls.io/repos/SixArm/sixarm_ruby_hash_more/badge.svg?branch=master&service=github"></a></p>
-<ul><li>
-<p>Git: <a
-href="https://github.com/sixarm/sixarm_ruby_hash_more">github.com/sixarm/sixarm_ruby_hash_more</a></p>
-</li><li>
-<p>Doc: <a
-href="http://sixarm.com/sixarm_ruby_hash_more/doc">sixarm.com/sixarm_ruby_hash_more/doc</a></p>
-</li><li>
-<p>Gem: <a
-href="https://rubygems.org/gems/sixarm_ruby_hash_more">rubygems.org/gems/sixarm_ruby_hash_more</a></p>
-</li><li>
-<p>Contact: Joel Parker Henderson, <a
-href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
-</li><li>
-<p>Changes: See CHANGES.md file.</p>
-</li><li>
-<p>License: See LICENSE.md file.</p>
-</li><li>
-<p>Helping: See CONTRIBUTING.md file.</p>
-</li></ul>
-<!--HEADER-SHUT-->
-<h2 id="label-Introduction">Introduction</h2>
+<!--header-open-->
 
-<p>HashMore is a hash of hashes of hashes and so on recursively, enabling
-arbitrarily access (and assignment of values) to specific elements of a
-(multi-dimensional) hash, whether the element already exists or not.</p>
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_hash_more"><img src="https://badge.fury.io/rb/sixarm_ruby_hash_more.svg" alt="Gem Version"></a>
+<a href="https://travis-ci.org/SixArm/sixarm_ruby_hash_more"><img src="https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png" alt="Build Status"></a>
+<a href="https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability"><img src="https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintanability" alt="Code Climate"></a></p>
 
-<p>For docs go to <a
-href="http://sixarm.com/sixarm_ruby_hash_more/doc">sixarm.com/sixarm_ruby_hash_more/doc</a></p>
+<ul>
+<li>Git: <a href="https://github.com/SixArm/sixarm_ruby_hash_more">https://github.com/SixArm/sixarm_ruby_hash_more</a></li>
+<li>Doc: <a href="http://sixarm.com/sixarm_ruby_hash_more/doc">http://sixarm.com/sixarm_ruby_hash_more/doc</a></li>
+<li>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_hash_more">https://rubygems.org/gems/sixarm_ruby_hash_more</a></li>
+<li>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
+<li>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</li>
+</ul>
+
+<!--header-shut-->
+
+<h2>Introduction</h2>
+
+<p>HashMore is a hash of hashes of hashes and so on recursively, enabling arbitrarily access (and assignment of values) to specific elements of a (multi-dimensional) hash, whether the element already exists or not.</p>
+
+<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_hash_more/doc">http://sixarm.com/sixarm_ruby_hash_more/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
-<!--INSTALL-OPEN-->
-<h2 id="label-Install">Install</h2>
 
-<p>To install using a Gemfile, add this:</p>
+<!--install-open-->
 
-<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_hash_more</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&gt;= 1.3.2</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt; 2</span><span class='tstring_end'>&quot;</span></span>
+<h2>Install</h2>
+
+<h3>Gem</h3>
+
+<p>To install this gem in your shell or terminal:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_hash_more'>sixarm_ruby_hash_more</span>
 </code></pre>
 
-<p>To install using the command line, run this:</p>
+<h3>Gemfile</h3>
 
-<pre class="code ruby"><code class="ruby">gem install sixarm_ruby_hash_more -v &quot;&gt;= 1.3.2, &lt; 2&quot;</code></pre>
+<p>To add this gem to your Gemfile:</p>
 
-<p>To install using the command line with high security, run this:</p>
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_hash_more</span><span class='tstring_end'>&#39;</span></span>
+</code></pre>
 
-<pre class="code ruby"><code class="ruby">wget http://sixarm.com/sixarm.pem
-gem cert --add sixarm.pem &amp;&amp; gem sources --add http://sixarm.com
-gem install sixarm_ruby_hash_more -v &quot;&gt;= 1.3.2, &lt; 2&quot; --trust-policy HighSecurity</code></pre>
+<h3>Require</h3>
 
 <p>To require the gem in your code:</p>
 
-<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_hash_more</span><span class='tstring_end'>&quot;</span></span>
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_hash_more</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
-<!--INSTALL-SHUT-->
-<h2 id="label-Details">Details</h2>
 
-<p>Ruby&#39;s built-in Hash class will raise an error if code attempts to
-access an element which doesn&#39;t exist; HashMore will create the
-necessary elements and then execute the access.</p>
+<!--install-shut-->
+
+<h2>Details</h2>
+
+<p>Ruby&#39;s built-in Hash class will raise an error if code attempts to access an element which doesn&#39;t exist; HashMore will create the necessary elements and then execute the access.</p>
 
 <p>Additionally, using the += operator to assign a numeric value to an element</p>
 
-<h2 id="label-Examples">Examples</h2>
+<h2>Examples</h2>
 
 <pre class="code ruby"><code class="ruby">hash = HashMore.new
 hash[&quot;red&quot;][&quot;apple&quot;] = true
 hash[&quot;red&quot;][&quot;dress&quot;] = true
 hash[&quot;red&quot;][&quot;truck&quot;] = true  
-hash[&quot;red&quot;] =&gt; {&quot;apple&quot;=&gt;true, &quot;dress&quot;=&gt;true, &quot;truck&quot;=&gt;true}</code></pre>
+hash[&quot;red&quot;] =&gt; {&quot;apple&quot;=&gt;true, &quot;dress&quot;=&gt;true, &quot;truck&quot;=&gt;true}
+</code></pre>
 
-<h2 id="label-Counting+and+Totals">Counting and Totals</h2>
+<h2>Counting and Totals</h2>
 
-<p>This class is also useful for building aggregate data about a set of
-similar objects, such as how many employees are in each department of each
-division of a company or total tax and sale amounts for a set of invoices
-by customer by year.</p>
+<p>This class is also useful for building aggregate data about a set of similar objects, such as how many employees are in each department of each division of a company or total tax and sale amounts for a set of invoices by customer by year.</p>
 
 <p>Counting example:</p>
 
@@ -158,7 +138,8 @@ for e in employees
 end
 
 h[&#39;sales&#39;][&#39;east coast] =&gt; 28
-h[&#39;sales&#39;][&#39;west coast] =&gt; 23</code></pre>
+h[&#39;sales&#39;][&#39;west coast] =&gt; 23
+</code></pre>
 
 <p>Totals example:</p>
 
@@ -167,19 +148,22 @@ invoices = Invoices.all
 
 for i in invoices
   h[i.customer.name][i.sale_date.year][&#39;tax&#39;] += i.tax_amount
-  h[i.customer.name][i.sale_date.year][&#39;sale&#39;] += i.sale_amount</code></pre>
+  h[i.customer.name][i.sale_date.year][&#39;sale&#39;] += i.sale_amount
+</code></pre>
 
 <p>end</p>
 
 <pre class="code ruby"><code class="ruby">h[&#39;Acme Corp&#39;][&#39;2008&#39;][&#39;tax&#39;] =&gt; 12039.12
-h[&#39;Acme Corp&#39;][&#39;2009&#39;][&#39;sale&#39;] =&gt; 102649</code></pre>
+h[&#39;Acme Corp&#39;][&#39;2009&#39;][&#39;sale&#39;] =&gt; 102649
+</code></pre>
 </div></div>
 
-    <div id="footer">
-  Generated on Sun Jul 19 00:18:13 2015 by
+      <div id="footer">
+  Generated on Fri Jun 22 22:29:35 2018 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.8.7.6 (ruby-2.2.2).
+  0.9.14 (ruby-2.5.1).
 </div>
 
+    </div>
   </body>
 </html>
