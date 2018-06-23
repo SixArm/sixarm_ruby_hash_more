@@ -4,14 +4,13 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_hash_more.svg)](http://badge.fury.io/rb/sixarm_ruby_hash_more)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png)](https://travis-ci.org/SixArm/sixarm_ruby_hash_more)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability)
-[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_hash_more/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_hash_more?branch=master)
+[![Code Climate](https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintanability)](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_hash_more>
+* Git: <https://github.com/SixArm/sixarm_ruby_hash_more>
 * Doc: <http://sixarm.com/sixarm_ruby_hash_more/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_hash_more>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
-* Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
+* Project: [changes](CHANGES.md), [license](LICENSE.md), [contributing](CONTRIBUTING.md).
 
 <!--header-shut-->
 
@@ -25,17 +24,19 @@ For docs go to <http://sixarm.com/sixarm_ruby_hash_more/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--install-opent-->
+<!--install-open-->
 
 ## Install
 
 ### Gem
 
-Run this command in your shell or terminal:
+To install this gem in your shell or terminal:
 
     gem install sixarm_ruby_hash_more
 
-Or add this to your Gemfile:
+### Gemfile
+
+To add this gem to your Gemfile:
 
     gem 'sixarm_ruby_hash_more'
 

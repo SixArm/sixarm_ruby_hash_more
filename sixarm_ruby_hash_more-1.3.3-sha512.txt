@@ -1,1 +1,0 @@
-3d9ccb7ba094a1bba48680d196ba1df212f67bc03332d3fa48190f8c620a829a92fb0eff1bf5fbbdab43684677ec7ebc157c7a250cf9aaec73bbccbe1446f550  sixarm_ruby_hash_more-1.3.3.gem
