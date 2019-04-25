@@ -4,7 +4,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_hash_more.svg)](http://badge.fury.io/rb/sixarm_ruby_hash_more)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png)](https://travis-ci.org/SixArm/sixarm_ruby_hash_more)
-[![Code Climate](https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintanability)](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability)
+[![Code Climate](https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintainability)](https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability)
 
 * Git: <https://github.com/SixArm/sixarm_ruby_hash_more>
 * Doc: <http://sixarm.com/sixarm_ruby_hash_more/doc>
