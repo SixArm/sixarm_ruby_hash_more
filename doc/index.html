@@ -6,7 +6,7 @@
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.9.14
+    &mdash; Documentation by YARD 0.9.19
   
 </title>
 
@@ -57,66 +57,60 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'><h1>SixArm.com → Ruby → <br> HashMore class for dynamic hashes</h1>
-
+      <div id="content"><div id='filecontents'>
+<h1 id="label-SixArm.com+-E2-86-92+Ruby+-E2-86-92++HashMore+class+for+dynamic+hashes">SixArm.com → Ruby → <br> HashMore class for dynamic hashes</h1>
 <!--header-open-->
-
-<p><a href="http://badge.fury.io/rb/sixarm_ruby_hash_more"><img src="https://badge.fury.io/rb/sixarm_ruby_hash_more.svg" alt="Gem Version"></a>
-<a href="https://travis-ci.org/SixArm/sixarm_ruby_hash_more"><img src="https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png" alt="Build Status"></a>
-<a href="https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability"><img src="https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintanability" alt="Code Climate"></a></p>
-
-<ul>
-<li>Git: <a href="https://github.com/SixArm/sixarm_ruby_hash_more">https://github.com/SixArm/sixarm_ruby_hash_more</a></li>
-<li>Doc: <a href="http://sixarm.com/sixarm_ruby_hash_more/doc">http://sixarm.com/sixarm_ruby_hash_more/doc</a></li>
-<li>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_hash_more">https://rubygems.org/gems/sixarm_ruby_hash_more</a></li>
-<li>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
-<li>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</li>
-</ul>
-
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_hash_more"><img src="https://badge.fury.io/rb/sixarm_ruby_hash_more.svg"></a> <a href="https://travis-ci.org/SixArm/sixarm_ruby_hash_more"><img src="https://travis-ci.org/SixArm/sixarm_ruby_hash_more.png"></a> <a href="https://codeclimate.com/github/SixArm/sixarm_ruby_hash_more/maintainability"><img src="https://api.codeclimate.com/v1/badges/1de30eff691433277e1b/maintainability"></a></p>
+<ul><li>
+<p>Git: <a href="https://github.com/SixArm/sixarm_ruby_hash_more">github.com/SixArm/sixarm_ruby_hash_more</a></p>
+</li><li>
+<p>Doc: <a href="http://sixarm.com/sixarm_ruby_hash_more/doc">sixarm.com/sixarm_ruby_hash_more/doc</a></p>
+</li><li>
+<p>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_hash_more">rubygems.org/gems/sixarm_ruby_hash_more</a></p>
+</li><li>
+<p>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
+</li><li>
+<p>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</p>
+</li></ul>
 <!--header-shut-->
-
-<h2>Introduction</h2>
+<h2 id="label-Introduction">Introduction</h2>
 
 <p>HashMore is a hash of hashes of hashes and so on recursively, enabling arbitrarily access (and assignment of values) to specific elements of a (multi-dimensional) hash, whether the element already exists or not.</p>
 
-<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_hash_more/doc">http://sixarm.com/sixarm_ruby_hash_more/doc</a></p>
+<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_hash_more/doc">sixarm.com/sixarm_ruby_hash_more/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
-
 <!--install-open-->
+<h2 id="label-Install">Install</h2>
 
-<h2>Install</h2>
-
-<h3>Gem</h3>
+<h3 id="label-Gem">Gem</h3>
 
 <p>To install this gem in your shell or terminal:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_hash_more'>sixarm_ruby_hash_more</span>
 </code></pre>
 
-<h3>Gemfile</h3>
+<h3 id="label-Gemfile">Gemfile</h3>
 
 <p>To add this gem to your Gemfile:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_hash_more</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<h3>Require</h3>
+<h3 id="label-Require">Require</h3>
 
 <p>To require the gem in your code:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_hash_more</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
-
 <!--install-shut-->
-
-<h2>Details</h2>
+<h2 id="label-Details">Details</h2>
 
 <p>Ruby&#39;s built-in Hash class will raise an error if code attempts to access an element which doesn&#39;t exist; HashMore will create the necessary elements and then execute the access.</p>
 
 <p>Additionally, using the += operator to assign a numeric value to an element</p>
 
-<h2>Examples</h2>
+<h2 id="label-Examples">Examples</h2>
 
 <pre class="code ruby"><code class="ruby">hash = HashMore.new
 hash[&quot;red&quot;][&quot;apple&quot;] = true
@@ -125,7 +119,7 @@ hash[&quot;red&quot;][&quot;truck&quot;] = true
 hash[&quot;red&quot;] =&gt; {&quot;apple&quot;=&gt;true, &quot;dress&quot;=&gt;true, &quot;truck&quot;=&gt;true}
 </code></pre>
 
-<h2>Counting and Totals</h2>
+<h2 id="label-Counting+and+Totals">Counting and Totals</h2>
 
 <p>This class is also useful for building aggregate data about a set of similar objects, such as how many employees are in each department of each division of a company or total tax and sale amounts for a set of invoices by customer by year.</p>
 
@@ -159,9 +153,9 @@ h[&#39;Acme Corp&#39;][&#39;2009&#39;][&#39;sale&#39;] =&gt; 102649
 </div></div>
 
       <div id="footer">
-  Generated on Fri Jun 22 22:29:35 2018 by
+  Generated on Thu Apr 25 22:30:13 2019 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.14 (ruby-2.5.1).
+  0.9.19 (ruby-2.6.3).
 </div>
 
     </div>
